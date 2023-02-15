@@ -1,0 +1,1589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="105" name="Beschreib" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="BGA-Top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="BD-Top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="OrgLBR" color="7" fill="1" visible="no" active="yes"/>
+</layers>
+<board>
+<plain>
+<wire x1="0" y1="1.27" x2="287" y2="1.27" width="0" layer="20"/>
+<wire x1="287" y1="1.27" x2="287" y2="68.25" width="0" layer="20"/>
+<wire x1="287" y1="68.25" x2="0" y2="68.25" width="0" layer="20"/>
+<wire x1="0" y1="68.25" x2="0" y2="1.27" width="0" layer="20"/>
+<dimension x1="0" y1="1.27" x2="0" y2="63.5" x3="0" y3="32.385" textsize="1.778" layer="1" unit="inch"/>
+<text x="281.94" y="2.54" size="0.8128" layer="25">U1-3</text>
+<text x="242.57" y="2.54" size="0.8128" layer="25">U1-1</text>
+<text x="250.19" y="63.5" size="0.8128" layer="25">treb-1</text>
+<text x="266.7" y="63.5" size="0.8128" layer="25">treb-3</text>
+<text x="220.98" y="2.54" size="0.8128" layer="25">u1-6</text>
+<text x="219.71" y="63.5" size="0.8128" layer="25">send3</text>
+<text x="208.28" y="2.54" size="0.8128" layer="25">u1-8</text>
+<text x="190.5" y="2.54" size="0.8128" layer="25">u2-3,8</text>
+<text x="153.67" y="63.5" size="0.8128" layer="25">ret 2</text>
+<text x="184.15" y="2.54" size="0.8128" layer="25">U3-7</text>
+<text x="166.37" y="2.54" size="0.8128" layer="25">U3-1</text>
+<text x="140.97" y="2.54" size="0.8128" layer="25">u3-6</text>
+<text x="166.37" y="62.23" size="0.8128" layer="25">ret-3</text>
+<text x="111.76" y="2.54" size="0.8128" layer="25">output jack</text>
+<text x="92.71" y="2.54" size="0.8128" layer="25">U3-8</text>
+<text x="124.46" y="2.54" size="0.8128" layer="25">U3-3</text>
+<text x="54.61" y="2.54" size="1.016" layer="25">U4-7</text>
+<text x="53.34" y="62.23" size="1.016" layer="25">speed-3</text>
+<text x="71.12" y="2.54" size="1.016" layer="25">U4-2</text>
+<text x="59.69" y="2.54" size="1.016" layer="25">TREM PEDAL</text>
+<text x="39.37" y="2.54" size="1.016" layer="25">V4-8</text>
+<text x="38.1" y="62.23" size="1.016" layer="25">intensity 2</text>
+<text x="134.62" y="2.54" size="1.016" layer="25">V5-5</text>
+<text x="1.27" y="11.43" size="1.016" layer="25">OT-HOT</text>
+<text x="1.27" y="7.62" size="1.016" layer="25">VA</text>
+<text x="2.54" y="30.48" size="1.016" layer="25">V5-4</text>
+<text x="6.35" y="53.34" size="1.016" layer="25">VC</text>
+<text x="3.81" y="25.4" size="1.016" layer="25">VB</text>
+<text x="46.99" y="2.54" size="1.016" layer="25">V4-6</text>
+<text x="153.67" y="2.54" size="1.016" layer="25">RT HOT</text>
+<wire x1="283.21" y1="36.83" x2="285.75" y2="36.83" width="0.1524" layer="25"/>
+<wire x1="285.75" y1="36.83" x2="285.75" y2="22.86" width="0.1524" layer="25"/>
+<wire x1="285.75" y1="22.86" x2="283.21" y2="22.86" width="0.1524" layer="25"/>
+<wire x1="283.21" y1="22.86" x2="279.4" y2="22.86" width="0.1524" layer="25"/>
+<wire x1="279.4" y1="22.86" x2="279.4" y2="25.4" width="0.1524" layer="25"/>
+<wire x1="279.4" y1="35.56" x2="279.4" y2="36.83" width="0.1524" layer="25"/>
+<wire x1="279.4" y1="36.83" x2="283.21" y2="36.83" width="0.1524" layer="25"/>
+<wire x1="283.21" y1="36.83" x2="283.21" y2="40.64" width="0.1524" layer="25"/>
+<wire x1="283.21" y1="40.64" x2="283.21" y2="54.61" width="0.1524" layer="25"/>
+<wire x1="283.21" y1="54.61" x2="280.67" y2="57.15" width="0.1524" layer="25"/>
+<wire x1="283.21" y1="22.86" x2="283.21" y2="19.05" width="0.1524" layer="25"/>
+<wire x1="283.21" y1="19.05" x2="283.21" y2="15.24" width="0.1524" layer="25"/>
+<wire x1="283.21" y1="15.24" x2="281.94" y2="13.97" width="0.1524" layer="25"/>
+<wire x1="276.86" y1="35.56" x2="276.86" y2="25.4" width="0.1524" layer="25"/>
+<wire x1="276.86" y1="25.4" x2="278.13" y2="25.4" width="0.1524" layer="25"/>
+<wire x1="278.13" y1="25.4" x2="279.4" y2="25.4" width="0.1524" layer="25"/>
+<wire x1="279.4" y1="25.4" x2="279.4" y2="35.56" width="0.1524" layer="25"/>
+<wire x1="279.4" y1="35.56" x2="278.13" y2="35.56" width="0.1524" layer="25"/>
+<wire x1="278.13" y1="35.56" x2="276.86" y2="35.56" width="0.1524" layer="25"/>
+<wire x1="278.13" y1="35.56" x2="283.21" y2="40.64" width="0.1524" layer="25"/>
+<wire x1="278.13" y1="25.4" x2="278.13" y2="24.13" width="0.1524" layer="25"/>
+<wire x1="278.13" y1="24.13" x2="283.21" y2="19.05" width="0.1524" layer="25"/>
+<wire x1="262.89" y1="52.07" x2="261.62" y2="50.8" width="0.1524" layer="25"/>
+<wire x1="261.62" y1="50.8" x2="261.62" y2="21.59" width="0.1524" layer="25"/>
+<wire x1="261.62" y1="21.59" x2="262.89" y2="20.32" width="0.1524" layer="25"/>
+<wire x1="262.89" y1="20.32" x2="267.97" y2="20.32" width="0.1524" layer="25"/>
+<wire x1="267.97" y1="20.32" x2="273.05" y2="20.32" width="0.1524" layer="25"/>
+<wire x1="273.05" y1="20.32" x2="274.32" y2="21.59" width="0.1524" layer="25"/>
+<wire x1="274.32" y1="21.59" x2="274.32" y2="50.8" width="0.1524" layer="25"/>
+<wire x1="274.32" y1="50.8" x2="273.05" y2="52.07" width="0.1524" layer="25"/>
+<wire x1="273.05" y1="52.07" x2="267.97" y2="52.07" width="0.1524" layer="25"/>
+<wire x1="267.97" y1="52.07" x2="262.89" y2="52.07" width="0.1524" layer="25"/>
+<wire x1="267.97" y1="52.07" x2="267.97" y2="54.61" width="0.1524" layer="25"/>
+<wire x1="267.97" y1="20.32" x2="267.97" y2="12.7" width="0.1524" layer="25"/>
+<wire x1="251.46" y1="13.97" x2="251.46" y2="12.7" width="0.1524" layer="25"/>
+<wire x1="251.46" y1="12.7" x2="251.46" y2="11.43" width="0.1524" layer="25"/>
+<wire x1="251.46" y1="11.43" x2="261.62" y2="11.43" width="0.1524" layer="25"/>
+<wire x1="261.62" y1="11.43" x2="261.62" y2="12.7" width="0.1524" layer="25"/>
+<wire x1="261.62" y1="12.7" x2="261.62" y2="13.97" width="0.1524" layer="25"/>
+<wire x1="261.62" y1="13.97" x2="251.46" y2="13.97" width="0.1524" layer="25"/>
+<wire x1="251.46" y1="12.7" x2="246.38" y2="12.7" width="0.1524" layer="25"/>
+<wire x1="261.62" y1="12.7" x2="266.7" y2="12.7" width="0.1524" layer="25"/>
+<wire x1="251.46" y1="52.07" x2="255.27" y2="52.07" width="0.1524" layer="25"/>
+<wire x1="255.27" y1="52.07" x2="259.08" y2="52.07" width="0.1524" layer="25"/>
+<wire x1="259.08" y1="52.07" x2="260.35" y2="50.8" width="0.1524" layer="25"/>
+<wire x1="260.35" y1="50.8" x2="260.35" y2="22.86" width="0.1524" layer="25"/>
+<wire x1="260.35" y1="22.86" x2="259.08" y2="21.59" width="0.1524" layer="25"/>
+<wire x1="251.46" y1="21.59" x2="250.19" y2="22.86" width="0.1524" layer="25"/>
+<wire x1="250.19" y1="22.86" x2="250.19" y2="50.8" width="0.1524" layer="25"/>
+<wire x1="250.19" y1="50.8" x2="251.46" y2="52.07" width="0.1524" layer="25"/>
+<wire x1="255.27" y1="52.07" x2="255.27" y2="54.61" width="0.1524" layer="25"/>
+<wire x1="251.46" y1="21.59" x2="259.08" y2="21.59" width="0.1524" layer="25"/>
+<wire x1="259.08" y1="21.59" x2="267.97" y2="12.7" width="0.1524" layer="25"/>
+<wire x1="243.84" y1="29.21" x2="243.84" y2="24.13" width="0.1524" layer="25"/>
+<wire x1="243.84" y1="24.13" x2="245.11" y2="24.13" width="0.1524" layer="25"/>
+<wire x1="245.11" y1="24.13" x2="246.38" y2="24.13" width="0.1524" layer="25"/>
+<wire x1="246.38" y1="24.13" x2="246.38" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="246.38" y1="29.21" x2="245.11" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="245.11" y1="29.21" x2="243.84" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="245.11" y1="29.21" x2="245.11" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="245.11" y1="24.13" x2="245.11" y2="16.51" width="0.1524" layer="25"/>
+<wire x1="240.03" y1="21.59" x2="240.03" y2="31.75" width="0.1524" layer="25"/>
+<wire x1="240.03" y1="31.75" x2="238.76" y2="31.75" width="0.1524" layer="25"/>
+<wire x1="238.76" y1="31.75" x2="237.49" y2="31.75" width="0.1524" layer="25"/>
+<wire x1="237.49" y1="31.75" x2="237.49" y2="21.59" width="0.1524" layer="25"/>
+<wire x1="237.49" y1="21.59" x2="238.76" y2="21.59" width="0.1524" layer="25"/>
+<wire x1="238.76" y1="21.59" x2="240.03" y2="21.59" width="0.1524" layer="25"/>
+<wire x1="238.76" y1="17.78" x2="241.3" y2="15.24" width="0.1524" layer="25"/>
+<wire x1="238.76" y1="34.29" x2="236.22" y2="36.83" width="0.1524" layer="25"/>
+<wire x1="227.33" y1="31.75" x2="227.33" y2="21.59" width="0.1524" layer="25"/>
+<wire x1="227.33" y1="21.59" x2="228.6" y2="21.59" width="0.1524" layer="25"/>
+<wire x1="228.6" y1="21.59" x2="229.87" y2="21.59" width="0.1524" layer="25"/>
+<wire x1="229.87" y1="21.59" x2="229.87" y2="31.75" width="0.1524" layer="25"/>
+<wire x1="229.87" y1="31.75" x2="228.6" y2="31.75" width="0.1524" layer="25"/>
+<wire x1="228.6" y1="31.75" x2="227.33" y2="31.75" width="0.1524" layer="25"/>
+<wire x1="228.6" y1="31.75" x2="228.6" y2="33.02" width="0.1524" layer="25"/>
+<wire x1="228.6" y1="33.02" x2="231.14" y2="35.56" width="0.1524" layer="25"/>
+<wire x1="228.6" y1="21.59" x2="228.6" y2="13.97" width="0.1524" layer="25"/>
+<wire x1="228.6" y1="13.97" x2="223.52" y2="13.97" width="0.1524" layer="25"/>
+<wire x1="218.44" y1="40.64" x2="220.98" y2="40.64" width="0.1524" layer="25"/>
+<wire x1="220.98" y1="40.64" x2="224.79" y2="40.64" width="0.1524" layer="25"/>
+<wire x1="224.79" y1="40.64" x2="226.06" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="226.06" y1="39.37" x2="226.06" y2="19.05" width="0.1524" layer="25"/>
+<wire x1="226.06" y1="19.05" x2="224.79" y2="17.78" width="0.1524" layer="25"/>
+<wire x1="224.79" y1="17.78" x2="220.98" y2="17.78" width="0.1524" layer="25"/>
+<wire x1="220.98" y1="17.78" x2="218.44" y2="17.78" width="0.1524" layer="25"/>
+<wire x1="218.44" y1="17.78" x2="215.9" y2="20.32" width="0.1524" layer="25"/>
+<wire x1="215.9" y1="20.32" x2="215.9" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="215.9" y1="38.1" x2="218.44" y2="40.64" width="0.1524" layer="25"/>
+<wire x1="220.98" y1="40.64" x2="220.98" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="220.98" y1="17.78" x2="220.98" y2="16.51" width="0.1524" layer="25"/>
+<wire x1="207.01" y1="44.45" x2="207.01" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="207.01" y1="29.21" x2="209.55" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="209.55" y1="29.21" x2="212.09" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="212.09" y1="29.21" x2="212.09" y2="44.45" width="0.1524" layer="25"/>
+<wire x1="212.09" y1="44.45" x2="209.55" y2="44.45" width="0.1524" layer="25"/>
+<wire x1="209.55" y1="44.45" x2="207.01" y2="44.45" width="0.1524" layer="25"/>
+<wire x1="209.55" y1="44.45" x2="201.93" y2="52.07" width="0.1524" layer="25"/>
+<wire x1="201.93" y1="52.07" x2="201.93" y2="53.34" width="0.1524" layer="25"/>
+<wire x1="203.2" y1="41.91" x2="203.2" y2="31.75" width="0.1524" layer="25"/>
+<wire x1="203.2" y1="31.75" x2="204.47" y2="31.75" width="0.1524" layer="25"/>
+<wire x1="204.47" y1="31.75" x2="205.74" y2="31.75" width="0.1524" layer="25"/>
+<wire x1="205.74" y1="31.75" x2="205.74" y2="41.91" width="0.1524" layer="25"/>
+<wire x1="205.74" y1="41.91" x2="204.47" y2="41.91" width="0.1524" layer="25"/>
+<wire x1="204.47" y1="41.91" x2="203.2" y2="41.91" width="0.1524" layer="25"/>
+<wire x1="204.47" y1="41.91" x2="204.47" y2="45.72" width="0.1524" layer="25"/>
+<wire x1="204.47" y1="45.72" x2="205.74" y2="46.99" width="0.1524" layer="25"/>
+<wire x1="209.55" y1="29.21" x2="209.55" y2="26.67" width="0.1524" layer="25"/>
+<wire x1="209.55" y1="26.67" x2="209.55" y2="16.51" width="0.1524" layer="25"/>
+<wire x1="208.28" y1="43.18" x2="210.82" y2="43.18" width="0.1524" layer="25"/>
+<wire x1="209.55" y1="31.75" x2="209.55" y2="30.48" width="0.1524" layer="25"/>
+<wire x1="208.28" y1="31.75" x2="209.55" y2="31.75" width="0.1524" layer="25"/>
+<wire x1="209.55" y1="31.75" x2="210.82" y2="31.75" width="0.1524" layer="25"/>
+<wire x1="209.55" y1="31.75" x2="209.55" y2="33.02" width="0.1524" layer="25"/>
+<wire x1="204.47" y1="31.75" x2="209.55" y2="26.67" width="0.1524" layer="25"/>
+<wire x1="187.96" y1="44.45" x2="187.96" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="187.96" y1="29.21" x2="190.5" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="190.5" y1="29.21" x2="193.04" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="193.04" y1="29.21" x2="193.04" y2="33.02" width="0.1524" layer="25"/>
+<wire x1="193.04" y1="44.45" x2="191.77" y2="44.45" width="0.1524" layer="25"/>
+<wire x1="191.77" y1="44.45" x2="187.96" y2="44.45" width="0.1524" layer="25"/>
+<wire x1="189.23" y1="43.18" x2="191.77" y2="43.18" width="0.1524" layer="25"/>
+<wire x1="190.5" y1="31.75" x2="190.5" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="189.23" y1="30.48" x2="191.77" y2="30.48" width="0.1524" layer="25"/>
+<wire x1="193.04" y1="44.45" x2="193.04" y2="43.18" width="0.1524" layer="25"/>
+<wire x1="193.04" y1="43.18" x2="193.04" y2="33.02" width="0.1524" layer="25"/>
+<wire x1="193.04" y1="33.02" x2="194.31" y2="33.02" width="0.1524" layer="25"/>
+<wire x1="194.31" y1="33.02" x2="195.58" y2="33.02" width="0.1524" layer="25"/>
+<wire x1="195.58" y1="33.02" x2="195.58" y2="43.18" width="0.1524" layer="25"/>
+<wire x1="195.58" y1="43.18" x2="194.31" y2="43.18" width="0.1524" layer="25"/>
+<wire x1="194.31" y1="43.18" x2="193.04" y2="43.18" width="0.1524" layer="25"/>
+<wire x1="191.77" y1="44.45" x2="195.58" y2="48.26" width="0.1524" layer="25"/>
+<wire x1="195.58" y1="48.26" x2="199.39" y2="52.07" width="0.1524" layer="25"/>
+<wire x1="199.39" y1="52.07" x2="199.39" y2="54.61" width="0.1524" layer="25"/>
+<wire x1="190.5" y1="29.21" x2="190.5" y2="24.13" width="0.1524" layer="25"/>
+<wire x1="190.5" y1="24.13" x2="190.5" y2="17.78" width="0.1524" layer="25"/>
+<wire x1="190.5" y1="17.78" x2="191.77" y2="16.51" width="0.1524" layer="25"/>
+<wire x1="194.31" y1="43.18" x2="195.58" y2="44.45" width="0.1524" layer="25"/>
+<wire x1="195.58" y1="44.45" x2="195.58" y2="48.26" width="0.1524" layer="25"/>
+<wire x1="194.31" y1="33.02" x2="194.31" y2="27.94" width="0.1524" layer="25"/>
+<wire x1="194.31" y1="27.94" x2="190.5" y2="24.13" width="0.1524" layer="25"/>
+<wire x1="179.07" y1="49.53" x2="179.07" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="179.07" y1="39.37" x2="180.34" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="180.34" y1="39.37" x2="181.61" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="181.61" y1="39.37" x2="181.61" y2="49.53" width="0.1524" layer="25"/>
+<wire x1="181.61" y1="49.53" x2="180.34" y2="49.53" width="0.1524" layer="25"/>
+<wire x1="180.34" y1="49.53" x2="179.07" y2="49.53" width="0.1524" layer="25"/>
+<wire x1="180.34" y1="39.37" x2="180.34" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="180.34" y1="38.1" x2="180.34" y2="34.29" width="0.1524" layer="25"/>
+<wire x1="182.88" y1="46.99" x2="182.88" y2="41.91" width="0.1524" layer="25"/>
+<wire x1="182.88" y1="41.91" x2="185.42" y2="41.91" width="0.1524" layer="25"/>
+<wire x1="185.42" y1="41.91" x2="185.42" y2="46.99" width="0.1524" layer="25"/>
+<wire x1="185.42" y1="46.99" x2="182.88" y2="46.99" width="0.1524" layer="25"/>
+<wire x1="182.88" y1="46.99" x2="182.88" y2="50.8" width="0.1524" layer="25"/>
+<wire x1="182.88" y1="50.8" x2="180.34" y2="50.8" width="0.1524" layer="25"/>
+<wire x1="182.88" y1="41.91" x2="182.88" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="182.88" y1="38.1" x2="180.34" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="162.56" y1="58.42" x2="162.56" y2="57.15" width="0.1524" layer="25"/>
+<wire x1="162.56" y1="57.15" x2="162.56" y2="55.88" width="0.1524" layer="25"/>
+<wire x1="162.56" y1="55.88" x2="172.72" y2="55.88" width="0.1524" layer="25"/>
+<wire x1="172.72" y1="55.88" x2="172.72" y2="57.15" width="0.1524" layer="25"/>
+<wire x1="172.72" y1="57.15" x2="172.72" y2="58.42" width="0.1524" layer="25"/>
+<wire x1="172.72" y1="58.42" x2="162.56" y2="58.42" width="0.1524" layer="25"/>
+<wire x1="162.56" y1="57.15" x2="158.75" y2="57.15" width="0.1524" layer="25"/>
+<wire x1="172.72" y1="57.15" x2="177.8" y2="57.15" width="0.1524" layer="25"/>
+<wire x1="162.56" y1="38.1" x2="162.56" y2="17.78" width="0.1524" layer="25"/>
+<wire x1="162.56" y1="17.78" x2="163.83" y2="16.51" width="0.1524" layer="25"/>
+<wire x1="163.83" y1="16.51" x2="167.64" y2="16.51" width="0.1524" layer="25"/>
+<wire x1="167.64" y1="16.51" x2="172.72" y2="16.51" width="0.1524" layer="25"/>
+<wire x1="172.72" y1="16.51" x2="172.72" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="172.72" y1="38.1" x2="171.45" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="171.45" y1="39.37" x2="167.64" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="167.64" y1="39.37" x2="163.83" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="163.83" y1="39.37" x2="162.56" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="167.64" y1="16.51" x2="167.64" y2="17.78" width="0.1524" layer="25"/>
+<wire x1="167.64" y1="39.37" x2="167.64" y2="40.64" width="0.1524" layer="25"/>
+<wire x1="158.75" y1="30.48" x2="158.75" y2="20.32" width="0.1524" layer="25"/>
+<wire x1="158.75" y1="20.32" x2="160.02" y2="20.32" width="0.1524" layer="25"/>
+<wire x1="160.02" y1="20.32" x2="161.29" y2="20.32" width="0.1524" layer="25"/>
+<wire x1="161.29" y1="20.32" x2="161.29" y2="30.48" width="0.1524" layer="25"/>
+<wire x1="161.29" y1="30.48" x2="160.02" y2="30.48" width="0.1524" layer="25"/>
+<wire x1="160.02" y1="30.48" x2="158.75" y2="30.48" width="0.1524" layer="25"/>
+<wire x1="160.02" y1="20.32" x2="162.56" y2="17.78" width="0.1524" layer="25"/>
+<wire x1="163.83" y1="16.51" x2="163.83" y2="15.24" width="0.1524" layer="25"/>
+<wire x1="160.02" y1="36.83" x2="156.21" y2="40.64" width="0.1524" layer="25"/>
+<wire x1="148.59" y1="31.75" x2="148.59" y2="21.59" width="0.1524" layer="25"/>
+<wire x1="148.59" y1="21.59" x2="149.86" y2="21.59" width="0.1524" layer="25"/>
+<wire x1="149.86" y1="21.59" x2="151.13" y2="21.59" width="0.1524" layer="25"/>
+<wire x1="151.13" y1="21.59" x2="151.13" y2="31.75" width="0.1524" layer="25"/>
+<wire x1="151.13" y1="31.75" x2="149.86" y2="31.75" width="0.1524" layer="25"/>
+<wire x1="148.59" y1="31.75" x2="149.86" y2="31.75" width="0.1524" layer="25"/>
+<wire x1="149.86" y1="31.75" x2="153.67" y2="35.56" width="0.1524" layer="25"/>
+<wire x1="153.67" y1="35.56" x2="153.67" y2="40.64" width="0.1524" layer="25"/>
+<wire x1="149.86" y1="21.59" x2="149.86" y2="19.05" width="0.1524" layer="25"/>
+<wire x1="149.86" y1="19.05" x2="146.05" y2="15.24" width="0.1524" layer="25"/>
+<wire x1="138.43" y1="48.26" x2="135.89" y2="45.72" width="0.1524" layer="25"/>
+<wire x1="135.89" y1="45.72" x2="135.89" y2="27.94" width="0.1524" layer="25"/>
+<wire x1="135.89" y1="27.94" x2="138.43" y2="25.4" width="0.1524" layer="25"/>
+<wire x1="138.43" y1="25.4" x2="140.97" y2="25.4" width="0.1524" layer="25"/>
+<wire x1="140.97" y1="25.4" x2="144.78" y2="25.4" width="0.1524" layer="25"/>
+<wire x1="144.78" y1="25.4" x2="146.05" y2="26.67" width="0.1524" layer="25"/>
+<wire x1="146.05" y1="26.67" x2="146.05" y2="45.72" width="0.1524" layer="25"/>
+<wire x1="146.05" y1="45.72" x2="143.51" y2="48.26" width="0.1524" layer="25"/>
+<wire x1="143.51" y1="48.26" x2="140.97" y2="48.26" width="0.1524" layer="25"/>
+<wire x1="140.97" y1="48.26" x2="138.43" y2="48.26" width="0.1524" layer="25"/>
+<wire x1="140.97" y1="48.26" x2="140.97" y2="54.61" width="0.1524" layer="25"/>
+<wire x1="140.97" y1="25.4" x2="142.24" y2="24.13" width="0.1524" layer="25"/>
+<wire x1="142.24" y1="24.13" x2="142.24" y2="16.51" width="0.1524" layer="25"/>
+<wire x1="123.19" y1="58.42" x2="123.19" y2="57.15" width="0.1524" layer="25"/>
+<wire x1="123.19" y1="57.15" x2="123.19" y2="55.88" width="0.1524" layer="25"/>
+<wire x1="123.19" y1="55.88" x2="133.35" y2="55.88" width="0.1524" layer="25"/>
+<wire x1="133.35" y1="55.88" x2="133.35" y2="57.15" width="0.1524" layer="25"/>
+<wire x1="133.35" y1="57.15" x2="133.35" y2="58.42" width="0.1524" layer="25"/>
+<wire x1="133.35" y1="58.42" x2="123.19" y2="58.42" width="0.1524" layer="25"/>
+<wire x1="123.19" y1="57.15" x2="119.38" y2="57.15" width="0.1524" layer="25"/>
+<wire x1="133.35" y1="57.15" x2="137.16" y2="57.15" width="0.1524" layer="25"/>
+<wire x1="123.19" y1="39.37" x2="123.19" y2="25.4" width="0.1524" layer="25"/>
+<wire x1="123.19" y1="25.4" x2="125.73" y2="25.4" width="0.1524" layer="25"/>
+<wire x1="125.73" y1="25.4" x2="128.27" y2="25.4" width="0.1524" layer="25"/>
+<wire x1="128.27" y1="25.4" x2="128.27" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="128.27" y1="39.37" x2="124.46" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="124.46" y1="39.37" x2="123.19" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="129.54" y1="38.1" x2="129.54" y2="27.94" width="0.1524" layer="25"/>
+<wire x1="129.54" y1="27.94" x2="130.81" y2="27.94" width="0.1524" layer="25"/>
+<wire x1="130.81" y1="27.94" x2="132.08" y2="27.94" width="0.1524" layer="25"/>
+<wire x1="132.08" y1="27.94" x2="132.08" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="132.08" y1="38.1" x2="130.81" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="130.81" y1="38.1" x2="129.54" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="125.73" y1="24.13" x2="125.73" y2="19.05" width="0.1524" layer="25"/>
+<wire x1="125.73" y1="19.05" x2="125.73" y2="17.78" width="0.1524" layer="25"/>
+<wire x1="124.46" y1="39.37" x2="124.46" y2="44.45" width="0.1524" layer="25"/>
+<wire x1="124.46" y1="44.45" x2="124.46" y2="48.26" width="0.1524" layer="25"/>
+<wire x1="124.46" y1="48.26" x2="118.11" y2="54.61" width="0.1524" layer="25"/>
+<wire x1="130.81" y1="38.1" x2="124.46" y2="44.45" width="0.1524" layer="25"/>
+<wire x1="130.81" y1="24.13" x2="125.73" y2="19.05" width="0.1524" layer="25"/>
+<wire x1="114.3" y1="38.1" x2="114.3" y2="27.94" width="0.1524" layer="25"/>
+<wire x1="114.3" y1="27.94" x2="115.57" y2="27.94" width="0.1524" layer="25"/>
+<wire x1="115.57" y1="27.94" x2="116.84" y2="27.94" width="0.1524" layer="25"/>
+<wire x1="116.84" y1="27.94" x2="116.84" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="116.84" y1="38.1" x2="114.3" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="115.57" y1="27.94" x2="115.57" y2="19.05" width="0.1524" layer="25"/>
+<wire x1="115.57" y1="19.05" x2="114.3" y2="17.78" width="0.1524" layer="25"/>
+<wire x1="114.3" y1="38.1" x2="96.52" y2="55.88" width="0.1524" layer="25"/>
+<wire x1="96.52" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="25"/>
+<wire x1="91.44" y1="25.4" x2="91.44" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="91.44" y1="39.37" x2="93.98" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="93.98" y1="39.37" x2="96.52" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="96.52" y1="39.37" x2="96.52" y2="25.4" width="0.1524" layer="25"/>
+<wire x1="96.52" y1="25.4" x2="93.98" y2="25.4" width="0.1524" layer="25"/>
+<wire x1="93.98" y1="25.4" x2="91.44" y2="25.4" width="0.1524" layer="25"/>
+<wire x1="93.98" y1="26.67" x2="93.98" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="92.71" y1="27.94" x2="95.25" y2="27.94" width="0.1524" layer="25"/>
+<wire x1="92.71" y1="38.1" x2="95.25" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="124.46" y1="38.1" x2="127" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="125.73" y1="27.94" x2="125.73" y2="25.4" width="0.1524" layer="25"/>
+<wire x1="124.46" y1="26.67" x2="127" y2="26.67" width="0.1524" layer="25"/>
+<wire x1="93.98" y1="39.37" x2="93.98" y2="45.72" width="0.1524" layer="25"/>
+<wire x1="93.98" y1="45.72" x2="93.98" y2="55.88" width="0.1524" layer="25"/>
+<wire x1="100.33" y1="40.64" x2="95.25" y2="45.72" width="0.1524" layer="25"/>
+<wire x1="95.25" y1="45.72" x2="93.98" y2="45.72" width="0.1524" layer="25"/>
+<wire x1="100.33" y1="26.67" x2="96.52" y2="22.86" width="0.1524" layer="25"/>
+<wire x1="96.52" y1="22.86" x2="93.98" y2="22.86" width="0.1524" layer="25"/>
+<wire x1="93.98" y1="25.4" x2="93.98" y2="15.24" width="0.1524" layer="25"/>
+<wire x1="83.82" y1="24.13" x2="83.82" y2="22.225" width="0.1524" layer="25"/>
+<wire x1="83.82" y1="22.225" x2="83.82" y2="17.78" width="0.1524" layer="25"/>
+<wire x1="83.82" y1="17.78" x2="82.55" y2="16.51" width="0.1524" layer="25"/>
+<wire x1="81.28" y1="24.13" x2="83.82" y2="24.13" width="0.1524" layer="25"/>
+<wire x1="83.82" y1="24.13" x2="86.36" y2="24.13" width="0.1524" layer="25"/>
+<wire x1="86.36" y1="24.13" x2="86.36" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="86.36" y1="39.37" x2="83.82" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="83.82" y1="39.37" x2="81.28" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="81.28" y1="39.37" x2="81.28" y2="24.13" width="0.1524" layer="25"/>
+<wire x1="85.09" y1="38.1" x2="82.55" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="83.82" y1="27.94" x2="83.82" y2="25.4" width="0.1524" layer="25"/>
+<wire x1="82.55" y1="26.67" x2="85.09" y2="26.67" width="0.1524" layer="25"/>
+<wire x1="77.47" y1="36.83" x2="77.47" y2="26.67" width="0.1524" layer="25"/>
+<wire x1="77.47" y1="26.67" x2="78.74" y2="26.67" width="0.1524" layer="25"/>
+<wire x1="78.74" y1="26.67" x2="80.01" y2="26.67" width="0.1524" layer="25"/>
+<wire x1="80.01" y1="26.67" x2="80.01" y2="36.83" width="0.1524" layer="25"/>
+<wire x1="80.01" y1="36.83" x2="78.74" y2="36.83" width="0.1524" layer="25"/>
+<wire x1="78.74" y1="36.83" x2="77.47" y2="36.83" width="0.1524" layer="25"/>
+<wire x1="83.82" y1="39.37" x2="83.82" y2="44.45" width="0.1524" layer="25"/>
+<wire x1="83.82" y1="44.45" x2="83.82" y2="53.34" width="0.1524" layer="25"/>
+<wire x1="83.82" y1="53.34" x2="82.55" y2="54.61" width="0.1524" layer="25"/>
+<wire x1="78.74" y1="39.37" x2="83.82" y2="44.45" width="0.1524" layer="25"/>
+<wire x1="67.31" y1="36.83" x2="66.04" y2="35.56" width="0.1524" layer="25"/>
+<wire x1="66.04" y1="35.56" x2="64.77" y2="34.29" width="0.1524" layer="25"/>
+<wire x1="64.77" y1="34.29" x2="72.39" y2="26.67" width="0.1524" layer="25"/>
+<wire x1="72.39" y1="26.67" x2="73.66" y2="27.94" width="0.1524" layer="25"/>
+<wire x1="73.66" y1="27.94" x2="74.93" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="74.93" y1="29.21" x2="67.31" y2="36.83" width="0.1524" layer="25"/>
+<wire x1="66.04" y1="35.56" x2="59.69" y2="41.91" width="0.1524" layer="25"/>
+<wire x1="59.69" y1="41.91" x2="58.42" y2="41.91" width="0.1524" layer="25"/>
+<wire x1="73.66" y1="27.94" x2="82.55" y2="19.05" width="0.1524" layer="25"/>
+<wire x1="82.55" y1="19.05" x2="82.55" y2="16.51" width="0.1524" layer="25"/>
+<wire x1="54.61" y1="52.07" x2="55.88" y2="52.07" width="0.1524" layer="25"/>
+<wire x1="55.88" y1="52.07" x2="57.15" y2="52.07" width="0.1524" layer="25"/>
+<wire x1="57.15" y1="52.07" x2="57.15" y2="48.26" width="0.1524" layer="25"/>
+<wire x1="57.15" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="25"/>
+<wire x1="55.88" y1="48.26" x2="54.61" y2="48.26" width="0.1524" layer="25"/>
+<wire x1="54.61" y1="48.26" x2="54.61" y2="52.07" width="0.1524" layer="25"/>
+<wire x1="55.88" y1="48.26" x2="55.88" y2="46.99" width="0.1524" layer="25"/>
+<wire x1="55.88" y1="52.07" x2="55.88" y2="50.8" width="0.1524" layer="25"/>
+<wire x1="54.61" y1="38.1" x2="54.61" y2="34.29" width="0.1524" layer="25"/>
+<wire x1="54.61" y1="34.29" x2="55.88" y2="34.29" width="0.1524" layer="25"/>
+<wire x1="55.88" y1="34.29" x2="57.15" y2="34.29" width="0.1524" layer="25"/>
+<wire x1="57.15" y1="34.29" x2="57.15" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="57.15" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="54.61" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="55.88" y1="38.1" x2="55.88" y2="36.83" width="0.1524" layer="25"/>
+<wire x1="55.88" y1="34.29" x2="55.88" y2="33.02" width="0.1524" layer="25"/>
+<wire x1="54.61" y1="24.13" x2="55.88" y2="24.13" width="0.1524" layer="25"/>
+<wire x1="55.88" y1="24.13" x2="57.15" y2="24.13" width="0.1524" layer="25"/>
+<wire x1="57.15" y1="24.13" x2="57.15" y2="20.32" width="0.1524" layer="25"/>
+<wire x1="57.15" y1="20.32" x2="55.88" y2="20.32" width="0.1524" layer="25"/>
+<wire x1="55.88" y1="20.32" x2="54.61" y2="20.32" width="0.1524" layer="25"/>
+<wire x1="54.61" y1="20.32" x2="54.61" y2="24.13" width="0.1524" layer="25"/>
+<wire x1="55.88" y1="24.13" x2="55.88" y2="22.86" width="0.1524" layer="25"/>
+<wire x1="55.88" y1="20.32" x2="55.88" y2="19.05" width="0.1524" layer="25"/>
+<wire x1="39.37" y1="39.37" x2="40.64" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="40.64" y1="39.37" x2="41.91" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="41.91" y1="39.37" x2="41.91" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="41.91" y1="29.21" x2="40.64" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="40.64" y1="29.21" x2="39.37" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="39.37" y1="29.21" x2="39.37" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="40.64" y1="29.21" x2="40.64" y2="15.24" width="0.1524" layer="25"/>
+<wire x1="40.64" y1="39.37" x2="40.64" y2="54.61" width="0.1524" layer="25"/>
+<wire x1="27.94" y1="41.91" x2="31.115" y2="41.91" width="0.1524" layer="25"/>
+<wire x1="31.115" y1="41.91" x2="33.02" y2="41.91" width="0.1524" layer="25"/>
+<wire x1="33.02" y1="41.91" x2="33.02" y2="26.67" width="0.1524" layer="25"/>
+<wire x1="33.02" y1="26.67" x2="27.94" y2="26.67" width="0.1524" layer="25"/>
+<wire x1="27.94" y1="26.67" x2="27.94" y2="41.91" width="0.1524" layer="25"/>
+<wire x1="29.21" y1="40.64" x2="31.75" y2="40.64" width="0.1524" layer="25"/>
+<wire x1="30.48" y1="30.48" x2="30.48" y2="27.94" width="0.1524" layer="25"/>
+<wire x1="29.21" y1="29.21" x2="31.75" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="30.48" y1="44.45" x2="29.21" y2="45.72" width="0.1524" layer="25"/>
+<wire x1="29.21" y1="45.72" x2="26.67" y2="48.26" width="0.1524" layer="25"/>
+<wire x1="26.67" y1="48.26" x2="26.67" y2="54.61" width="0.1524" layer="25"/>
+<wire x1="30.48" y1="22.86" x2="30.48" y2="16.51" width="0.1524" layer="25"/>
+<wire x1="30.48" y1="16.51" x2="27.94" y2="13.97" width="0.1524" layer="25"/>
+<wire x1="24.13" y1="39.37" x2="24.13" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="24.13" y1="29.21" x2="25.4" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="25.4" y1="29.21" x2="26.67" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="26.67" y1="29.21" x2="26.67" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="26.67" y1="39.37" x2="25.4" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="25.4" y1="39.37" x2="24.13" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="25.4" y1="41.91" x2="29.21" y2="45.72" width="0.1524" layer="25"/>
+<wire x1="25.4" y1="26.67" x2="29.21" y2="22.86" width="0.1524" layer="25"/>
+<wire x1="29.21" y1="22.86" x2="30.48" y2="22.86" width="0.1524" layer="25"/>
+<wire x1="15.24" y1="30.48" x2="16.51" y2="30.48" width="0.1524" layer="25"/>
+<wire x1="16.51" y1="30.48" x2="17.78" y2="30.48" width="0.1524" layer="25"/>
+<wire x1="17.78" y1="30.48" x2="17.78" y2="20.32" width="0.1524" layer="25"/>
+<wire x1="17.78" y1="20.32" x2="16.51" y2="20.32" width="0.1524" layer="25"/>
+<wire x1="16.51" y1="20.32" x2="15.24" y2="20.32" width="0.1524" layer="25"/>
+<wire x1="15.24" y1="20.32" x2="15.24" y2="30.48" width="0.1524" layer="25"/>
+<wire x1="16.51" y1="30.48" x2="16.51" y2="31.75" width="0.1524" layer="25"/>
+<wire x1="16.51" y1="20.32" x2="16.51" y2="17.78" width="0.1524" layer="25"/>
+<wire x1="15.24" y1="50.8" x2="15.24" y2="40.64" width="0.1524" layer="25"/>
+<wire x1="15.24" y1="40.64" x2="16.51" y2="40.64" width="0.1524" layer="25"/>
+<wire x1="16.51" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="25"/>
+<wire x1="17.78" y1="40.64" x2="17.78" y2="50.8" width="0.1524" layer="25"/>
+<wire x1="17.78" y1="50.8" x2="16.51" y2="50.8" width="0.1524" layer="25"/>
+<wire x1="16.51" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="25"/>
+<wire x1="16.51" y1="50.8" x2="16.51" y2="53.34" width="0.1524" layer="25"/>
+<wire x1="16.51" y1="40.64" x2="16.51" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="99.06" y1="38.1" x2="99.06" y2="27.94" width="0.1524" layer="25"/>
+<wire x1="99.06" y1="27.94" x2="100.33" y2="27.94" width="0.1524" layer="25"/>
+<wire x1="100.33" y1="27.94" x2="101.6" y2="27.94" width="0.1524" layer="25"/>
+<wire x1="101.6" y1="27.94" x2="101.6" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="101.6" y1="38.1" x2="100.33" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="100.33" y1="38.1" x2="99.06" y2="38.1" width="0.1524" layer="25"/>
+<wire x1="100.33" y1="38.1" x2="100.33" y2="40.64" width="0.1524" layer="25"/>
+<wire x1="100.33" y1="27.94" x2="100.33" y2="26.67" width="0.1524" layer="25"/>
+<text x="278.765" y="29.21" size="1.27" layer="25" rot="R90">1500</text>
+<text x="283.21" y="27.94" size="1.27" layer="25" rot="R90">25uF</text>
+<text x="269.24" y="33.02" size="1.27" layer="25" rot="R90">0.1uF</text>
+<text x="255.905" y="33.655" size="1.27" layer="25" rot="R90">47nF</text>
+<text x="260.985" y="13.335" size="1.27" layer="25" rot="R180">100K</text>
+<text x="227.965" y="29.21" size="1.27" layer="25" rot="R270">100K</text>
+<text x="238.125" y="28.575" size="1.27" layer="25" rot="R270">100K</text>
+<text x="244.475" y="29.21" size="1.27" layer="25" rot="R270">250pF</text>
+<wire x1="238.76" y1="17.78" x2="238.76" y2="21.59" width="0.1524" layer="25"/>
+<wire x1="238.76" y1="31.75" x2="238.76" y2="34.29" width="0.1524" layer="25"/>
+<text x="221.615" y="26.035" size="1.27" layer="25" rot="R90">0.02uF</text>
+<text x="221.615" y="48.26" size="1.27" layer="25" rot="R90">500pF</text>
+<wire x1="219.71" y1="53.34" x2="222.885" y2="53.34" width="0.1524" layer="25"/>
+<wire x1="222.885" y1="53.34" x2="222.885" y2="48.26" width="0.1524" layer="25"/>
+<wire x1="222.885" y1="48.26" x2="219.075" y2="48.26" width="0.1524" layer="25"/>
+<wire x1="219.075" y1="48.26" x2="219.075" y2="52.705" width="0.1524" layer="25"/>
+<wire x1="219.075" y1="52.705" x2="219.71" y2="53.34" width="0.1524" layer="25"/>
+<text x="205.105" y="34.925" size="1.27" layer="25" rot="R90">1500</text>
+<text x="210.185" y="34.925" size="1.27" layer="25" rot="R90">25uF</text>
+<text x="190.5" y="34.29" size="1.27" layer="25" rot="R90">25uF</text>
+<text x="194.945" y="36.83" size="1.27" layer="25" rot="R90">2200</text>
+<text x="180.975" y="42.545" size="1.27" layer="25" rot="R90">3M3</text>
+<text x="184.785" y="42.545" size="1.27" layer="25" rot="R90">10pF</text>
+<text x="165.735" y="56.515" size="1.27" layer="25">470K</text>
+<text x="168.275" y="24.13" size="1.27" layer="25" rot="R90">0.033uF</text>
+<text x="160.655" y="24.13" size="1.27" layer="25" rot="R90">100K</text>
+<text x="150.495" y="24.765" size="1.27" layer="25" rot="R90">100K</text>
+<text x="141.605" y="33.02" size="1.27" layer="25" rot="R90">0.022uF</text>
+<text x="125.73" y="56.515" size="1.27" layer="25">220K</text>
+<text x="131.445" y="31.115" size="1.27" layer="25" rot="R90">1500</text>
+<text x="126.365" y="29.845" size="1.27" layer="25" rot="R90">25uF</text>
+<text x="93.98" y="29.845" size="1.27" layer="25" rot="R90">25uF</text>
+<text x="100.965" y="30.48" size="1.27" layer="25" rot="R90">1500</text>
+<text x="116.205" y="30.48" size="1.27" layer="25" rot="R90">2700</text>
+<text x="102.87" y="56.515" size="1.27" layer="25">47</text>
+<text x="83.82" y="30.48" size="1.27" layer="25" rot="R90">25uf</text>
+<text x="79.375" y="29.845" size="1.27" layer="25" rot="R90">4700</text>
+<text x="70.485" y="30.48" size="1.27" layer="25" rot="R90">1M</text>
+<text x="56.515" y="19.685" size="1.27" layer="25" rot="R90">0.02</text>
+<text x="56.515" y="48.26" size="1.27" layer="25" rot="R90">0.01</text>
+<text x="56.515" y="34.29" size="1.27" layer="25" rot="R90">0.01</text>
+<text x="41.275" y="33.02" size="1.27" layer="25" rot="R90">68K</text>
+<text x="30.48" y="32.385" size="1.27" layer="25" rot="R90">25uf</text>
+<text x="26.035" y="32.385" size="1.27" layer="25" rot="R90">470</text>
+<text x="17.145" y="24.13" size="1.27" layer="25" rot="R90">1K</text>
+<wire x1="78.74" y1="39.37" x2="78.74" y2="36.83" width="0.1524" layer="25"/>
+<wire x1="78.74" y1="26.67" x2="83.185" y2="22.225" width="0.1524" layer="25"/>
+<wire x1="83.185" y1="22.225" x2="83.82" y2="22.225" width="0.1524" layer="25"/>
+<wire x1="130.81" y1="24.13" x2="130.81" y2="27.94" width="0.1524" layer="25"/>
+<wire x1="160.02" y1="36.83" x2="160.02" y2="30.48" width="0.1524" layer="25"/>
+<wire x1="180.34" y1="50.8" x2="180.34" y2="49.53" width="0.1524" layer="25"/>
+<wire x1="180.34" y1="51.435" x2="180.34" y2="53.34" width="0.1524" layer="25"/>
+<wire x1="30.48" y1="43.815" x2="31.115" y2="43.18" width="0.1524" layer="25"/>
+<wire x1="31.115" y1="43.18" x2="31.115" y2="41.91" width="0.1524" layer="25"/>
+<wire x1="25.4" y1="41.91" x2="25.4" y2="39.37" width="0.1524" layer="25"/>
+<wire x1="25.4" y1="27.305" x2="25.4" y2="29.21" width="0.1524" layer="25"/>
+<wire x1="30.48" y1="22.86" x2="30.48" y2="26.035" width="0.1524" layer="25"/>
+<dimension x1="0" y1="1.27" x2="287" y2="1.27" x3="143.5" y3="0.635" textsize="1.778" layer="1" unit="inch"/>
+<text x="80.01" y="1.905" size="1.778" layer="25">u4-3</text>
+<text x="259.08" y="63.5" size="0.8128" layer="25">BASS 3</text>
+<text x="200.025" y="2.54" size="0.8128" layer="25">INTENSITY 3</text>
+<wire x1="107.315" y1="57.15" x2="107.315" y2="55.245" width="0.1524" layer="25"/>
+<wire x1="107.315" y1="55.245" x2="99.695" y2="55.245" width="0.1524" layer="25"/>
+<wire x1="99.695" y1="55.245" x2="99.695" y2="57.15" width="0.1524" layer="25"/>
+<wire x1="99.695" y1="57.15" x2="99.695" y2="58.42" width="0.1524" layer="25"/>
+<wire x1="99.695" y1="58.42" x2="107.315" y2="58.42" width="0.1524" layer="25"/>
+<wire x1="107.315" y1="58.42" x2="107.315" y2="57.15" width="0.1524" layer="25"/>
+<wire x1="112.395" y1="57.15" x2="107.315" y2="57.15" width="0.1524" layer="25"/>
+<wire x1="99.695" y1="57.15" x2="95.25" y2="57.15" width="0.1524" layer="25"/>
+<text x="26.67" y="2.54" size="0.8128" layer="25">V5-8</text>
+<text x="17.145" y="45.085" size="0.8128" layer="25" rot="R90">10K</text>
+<text x="69.85" y="55.245" size="0.8128" layer="25">1M</text>
+<wire x1="67.31" y1="57.15" x2="72.39" y2="57.15" width="0.1524" layer="25"/>
+<wire x1="72.39" y1="57.15" x2="72.39" y2="55.88" width="0.1524" layer="25"/>
+<wire x1="72.39" y1="55.88" x2="72.39" y2="53.975" width="0.1524" layer="25"/>
+<wire x1="72.39" y1="53.975" x2="67.31" y2="53.975" width="0.1524" layer="25"/>
+<wire x1="67.31" y1="53.975" x2="67.31" y2="55.88" width="0.1524" layer="25"/>
+<wire x1="67.31" y1="55.88" x2="59.69" y2="55.88" width="0.1524" layer="25"/>
+<wire x1="72.39" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="25"/>
+<text x="3.81" y="62.23" size="1.778" layer="25">GND</text>
+<text x="247.65" y="4.445" size="1.778" layer="25">SHARKBOMB AUDIO</text>
+<text x="247.65" y="1.905" size="1.778" layer="25">5 WATT SPECIAL</text>
+</plain>
+<libraries>
+<library name="575-4">
+<packages>
+<package name="KEYSTONE_575-4">
+<text x="-2.373859375" y="4.38713125" size="1.27206875" layer="25">&gt;NAME</text>
+<text x="-2.672909375" y="-5.85638125" size="1.271390625" layer="27">&gt;VALUE</text>
+<circle x="0" y="0" radius="4.2" width="0.05" layer="39"/>
+<pad name="1" x="0" y="0" drill="5.4" diameter="7.9"/>
+</package>
+</packages>
+</library>
+<library name="supply pins">
+<description>&lt;b&gt;Supply&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;input, output, ground, and power supply.  
+&lt;li&gt;these are used on a schematic for placeholders and on a board for pads for off-board components like jacks.
+&lt;/ul&gt;</description>
+<packages>
+<package name="PAD1">
+<description>&lt;b&gt;Round Pad (w/label) - 80mil Diameter, 47mil Drill&lt;b&gt;</description>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="-1.27" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="-1.27" y2="1.27" width="0.1524" layer="22"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.1524" layer="22"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.1524" layer="22"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="1.27" width="0.1524" layer="22"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="-2.54" width="0.1524" layer="22"/>
+<wire x1="1.27" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="22"/>
+<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="-1.27" width="0.1524" layer="22"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.9304"/>
+<text x="0" y="-1.905" size="0.8128" layer="25" ratio="10" align="center">&gt;NAME</text>
+</package>
+<package name="PAD2">
+<description>&lt;b&gt;Round Pad (no label) - 76mil Diameter, 39mil Drill&lt;b&gt;</description>
+<pad name="P$1" x="0" y="0" drill="1.016" diameter="1.9304"/>
+</package>
+</packages>
+</library>
+<library name="amp library">
+<packages>
+<package name="M6-HOLE">
+<description>This is a hole for a 6-32 screw to go through</description>
+<hole x="0" y="0" drill="5.08"/>
+<circle x="0" y="0" radius="4.242640625" width="0" layer="29"/>
+<circle x="0" y="0" radius="4.242640625" width="0" layer="30"/>
+<circle x="0" y="0" radius="4.242640625" width="0" layer="39"/>
+<circle x="0" y="0" radius="4.242640625" width="0" layer="40"/>
+<circle x="0" y="0" radius="4.242640625" width="0" layer="41"/>
+<circle x="0" y="0" radius="4.242640625" width="0" layer="42"/>
+<circle x="0" y="0" radius="4.242640625" width="0" layer="43"/>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="6mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="0.35mm"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="J1" library="575-4" package="KEYSTONE_575-4" value="575-4" x="281.94" y="12.7" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="326.39" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="326.39" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="326.39" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="326.39" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="279.566140625" y="17.08713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="326.39" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="326.39" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="326.39" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="279.267090625" y="6.84361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J2" library="575-4" package="KEYSTONE_575-4" value="575-4" x="280.67" y="57.15" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="334.01" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="334.01" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="334.01" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="334.01" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="278.296140625" y="61.53713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="334.01" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="334.01" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="334.01" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="277.997090625" y="51.29361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J3" library="575-4" package="KEYSTONE_575-4" value="575-4" x="243.84" y="12.7" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="261.62" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="261.62" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="261.62" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="261.62" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="241.466140625" y="17.08713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="261.62" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="261.62" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="261.62" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="241.167090625" y="6.84361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J4" library="575-4" package="KEYSTONE_575-4" value="575-4" x="267.97" y="12.7" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="294.64" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="294.64" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="294.64" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="294.64" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="265.596140625" y="17.08713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="294.64" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="294.64" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="294.64" y="-27.94" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="265.297090625" y="6.84361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J5" library="575-4" package="KEYSTONE_575-4" value="575-4" x="255.27" y="57.15" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="290.83" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="290.83" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="290.83" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="290.83" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="252.896140625" y="61.53713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="290.83" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="290.83" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="290.83" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="252.597090625" y="51.29361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J6" library="575-4" package="KEYSTONE_575-4" value="575-4" x="267.97" y="57.15" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="312.42" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="312.42" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="312.42" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="312.42" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="265.596140625" y="61.53713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="312.42" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="312.42" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="312.42" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="265.297090625" y="51.29361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J7" library="575-4" package="KEYSTONE_575-4" value="575-4" x="245.11" y="39.37" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="298.45" y="-1.27" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="298.45" y="-1.27" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="298.45" y="-1.27" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="298.45" y="-1.27" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="242.736140625" y="43.75713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="298.45" y="-1.27" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="298.45" y="-1.27" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="298.45" y="-1.27" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="242.437090625" y="33.51361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J8" library="575-4" package="KEYSTONE_575-4" value="575-4" x="233.68" y="38.1" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="251.46" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="251.46" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="251.46" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="251.46" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="231.306140625" y="42.48713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="251.46" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="251.46" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="251.46" y="-15.24" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="231.007090625" y="32.24361875" size="1.271390625" layer="27"/>
+</element>
+<element name="U$1" library="supply pins" package="PAD1" value="PADS.RND_LBL" x="267.97" y="66.04" smashed="yes"/>
+<element name="U$2" library="supply pins" package="PAD1" value="PADS.RND_LBL" x="260.35" y="66.04" smashed="yes"/>
+<element name="U$3" library="supply pins" package="PAD1" value="PADS.RND_LBL" x="251.46" y="66.04" smashed="yes"/>
+<element name="U$5" library="supply pins" package="PAD1" value="PADS.RND_LBL" x="283.21" y="5.08" smashed="yes"/>
+<element name="U$6" library="supply pins" package="PAD1" value="PADS.RND_LBL" x="243.84" y="5.08" smashed="yes"/>
+<element name="J9" library="575-4" package="KEYSTONE_575-4" value="575-4" x="220.98" y="44.45" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="220.98" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="220.98" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="220.98" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="220.98" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="218.606140625" y="48.83713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="220.98" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="220.98" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="220.98" y="44.45" size="0.8128" layer="27" display="off"/>
+</element>
+<element name="J10" library="575-4" package="KEYSTONE_575-4" value="575-4" x="220.98" y="12.7" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="220.98" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="220.98" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="220.98" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="220.98" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="218.606140625" y="17.08713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="220.98" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="220.98" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="220.98" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="218.307090625" y="6.84361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J11" library="575-4" package="KEYSTONE_575-4" value="575-4" x="220.98" y="57.15" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="220.98" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="220.98" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="220.98" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="220.98" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="218.606140625" y="61.53713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="220.98" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="220.98" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="220.98" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="218.307090625" y="51.29361875" size="1.271390625" layer="27"/>
+</element>
+<element name="U$4" library="supply pins" package="PAD2" value="PADS.RND_NL" x="220.98" y="66.04" smashed="yes"/>
+<element name="U$7" library="supply pins" package="PAD2" value="PADS.RND_NL" x="220.98" y="5.08" smashed="yes"/>
+<element name="J12" library="575-4" package="KEYSTONE_575-4" value="575-4" x="191.77" y="12.7" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="191.77" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="191.77" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="191.77" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="191.77" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="189.396140625" y="17.08713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="191.77" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="191.77" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="191.77" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="189.097090625" y="6.84361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J13" library="575-4" package="KEYSTONE_575-4" value="575-4" x="209.55" y="12.7" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="209.55" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="209.55" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="209.55" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="209.55" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="207.176140625" y="17.08713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="209.55" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="209.55" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="209.55" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="206.877090625" y="6.84361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J14" library="575-4" package="KEYSTONE_575-4" value="575-4" x="200.66" y="57.15" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="200.66" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="200.66" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="200.66" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="200.66" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="198.286140625" y="61.53713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="200.66" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="200.66" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="200.66" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="197.987090625" y="51.29361875" size="1.271390625" layer="27"/>
+</element>
+<element name="U$8" library="supply pins" package="PAD2" value="PADS.RND_NL" x="191.77" y="5.08" smashed="yes"/>
+<element name="U$9" library="supply pins" package="PAD2" value="PADS.RND_NL" x="209.55" y="5.08" smashed="yes"/>
+<element name="J15" library="575-4" package="KEYSTONE_575-4" value="575-4" x="180.34" y="30.48" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="180.34" y="30.48" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="180.34" y="30.48" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="180.34" y="30.48" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="180.34" y="30.48" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="177.966140625" y="34.86713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="180.34" y="30.48" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="180.34" y="30.48" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="180.34" y="30.48" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="177.667090625" y="24.62361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J16" library="575-4" package="KEYSTONE_575-4" value="575-4" x="180.34" y="57.15" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="180.34" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="180.34" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="180.34" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="180.34" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="177.966140625" y="61.53713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="180.34" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="180.34" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="180.34" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="177.667090625" y="51.29361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J17" library="575-4" package="KEYSTONE_575-4" value="575-4" x="154.94" y="57.15" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="154.94" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="154.94" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="154.94" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="154.94" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="153.836140625" y="50.10713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="154.94" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="154.94" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="154.94" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="152.267090625" y="51.29361875" size="1.271390625" layer="27"/>
+</element>
+<element name="U$10" library="supply pins" package="PAD2" value="PADS.RND_NL" x="154.94" y="66.04" smashed="yes"/>
+<element name="U$11" library="supply pins" package="PAD2" value="PADS.RND_NL" x="185.42" y="5.08" smashed="yes"/>
+<element name="J18" library="575-4" package="KEYSTONE_575-4" value="575-4" x="167.64" y="12.7" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="167.64" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="167.64" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="167.64" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="167.64" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="165.266140625" y="17.08713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="167.64" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="167.64" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="167.64" y="12.7" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="164.967090625" y="6.84361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J19" library="575-4" package="KEYSTONE_575-4" value="575-4" x="167.64" y="44.45" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="167.64" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="167.64" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="167.64" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="167.64" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="165.266140625" y="48.83713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="167.64" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="167.64" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="167.64" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="164.967090625" y="38.59361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J20" library="575-4" package="KEYSTONE_575-4" value="575-4" x="154.94" y="44.45" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="154.94" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="154.94" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="154.94" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="154.94" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="152.566140625" y="48.83713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="154.94" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="154.94" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="154.94" y="44.45" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="152.267090625" y="38.59361875" size="1.271390625" layer="27"/>
+</element>
+<element name="U$12" library="supply pins" package="PAD2" value="PADS.RND_NL" x="167.64" y="5.08" smashed="yes"/>
+<element name="U$13" library="supply pins" package="PAD2" value="PADS.RND_NL" x="167.64" y="64.77" smashed="yes"/>
+<element name="J21" library="575-4" package="KEYSTONE_575-4" value="575-4" x="142.24" y="13.97" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="142.24" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="142.24" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="142.24" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="142.24" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="139.866140625" y="18.35713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="142.24" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="142.24" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="142.24" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="139.567090625" y="8.11361875" size="1.271390625" layer="27"/>
+</element>
+<element name="U$14" library="supply pins" package="PAD2" value="PADS.RND_NL" x="142.24" y="5.08" smashed="yes"/>
+<element name="J22" library="575-4" package="KEYSTONE_575-4" value="575-4" x="140.97" y="57.15" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="140.97" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="140.97" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="140.97" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="140.97" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="138.596140625" y="61.53713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="140.97" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="140.97" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="140.97" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="138.297090625" y="51.29361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J23" library="575-4" package="KEYSTONE_575-4" value="575-4" x="115.57" y="57.15" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="115.57" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="115.57" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="115.57" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="115.57" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="113.196140625" y="61.53713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="115.57" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="115.57" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="115.57" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="112.897090625" y="51.29361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J24" library="575-4" package="KEYSTONE_575-4" value="575-4" x="93.98" y="13.97" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="93.98" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="93.98" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="93.98" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="93.98" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="91.606140625" y="18.35713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="93.98" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="93.98" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="93.98" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="91.307090625" y="8.11361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J25" library="575-4" package="KEYSTONE_575-4" value="575-4" x="92.71" y="57.15" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="92.71" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="92.71" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="92.71" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="92.71" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="90.336140625" y="61.53713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="92.71" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="92.71" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="92.71" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="90.037090625" y="51.29361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J27" library="575-4" package="KEYSTONE_575-4" value="575-4" x="114.3" y="13.97" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="114.3" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="114.3" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="114.3" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="114.3" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="111.926140625" y="18.35713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="114.3" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="114.3" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="114.3" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="111.627090625" y="8.11361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J28" library="575-4" package="KEYSTONE_575-4" value="575-4" x="125.73" y="13.97" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="125.73" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="125.73" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="125.73" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="125.73" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="123.356140625" y="18.35713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="125.73" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="125.73" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="125.73" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="123.057090625" y="8.11361875" size="1.271390625" layer="27"/>
+</element>
+<element name="U$15" library="supply pins" package="PAD2" value="PADS.RND_NL" x="93.98" y="5.08" smashed="yes"/>
+<element name="U$16" library="supply pins" package="PAD2" value="PADS.RND_NL" x="114.3" y="5.08" smashed="yes"/>
+<element name="U$17" library="supply pins" package="PAD2" value="PADS.RND_NL" x="125.73" y="5.08" smashed="yes"/>
+<element name="J26" library="575-4" package="KEYSTONE_575-4" value="575-4" x="82.55" y="13.97" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="82.55" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="82.55" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="82.55" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="82.55" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="80.176140625" y="18.35713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="82.55" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="82.55" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="82.55" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="79.877090625" y="8.11361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J29" library="575-4" package="KEYSTONE_575-4" value="575-4" x="82.55" y="57.15" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="82.55" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="82.55" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="82.55" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="82.55" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="80.176140625" y="61.53713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="82.55" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="82.55" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="82.55" y="57.15" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="79.877090625" y="51.29361875" size="1.271390625" layer="27"/>
+</element>
+<element name="U$18" library="supply pins" package="PAD2" value="PADS.RND_NL" x="82.55" y="5.08" smashed="yes"/>
+<element name="J30" library="575-4" package="KEYSTONE_575-4" value="575-4" x="55.88" y="13.97" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="55.88" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="55.88" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="55.88" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="55.88" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="53.506140625" y="18.35713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="55.88" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="55.88" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="55.88" y="13.97" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="53.207090625" y="8.11361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J31" library="575-4" package="KEYSTONE_575-4" value="575-4" x="55.88" y="29.21" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="55.88" y="29.21" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="55.88" y="29.21" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="55.88" y="29.21" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="55.88" y="29.21" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="53.506140625" y="33.59713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="55.88" y="29.21" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="55.88" y="29.21" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="55.88" y="29.21" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="53.207090625" y="23.35361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J32" library="575-4" package="KEYSTONE_575-4" value="575-4" x="55.88" y="43.18" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="55.88" y="43.18" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="55.88" y="43.18" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="55.88" y="43.18" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="55.88" y="43.18" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="53.506140625" y="47.56713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="55.88" y="43.18" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="55.88" y="43.18" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="55.88" y="43.18" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="53.207090625" y="37.32361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J33" library="575-4" package="KEYSTONE_575-4" value="575-4" x="55.88" y="55.88" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="55.88" y="55.88" size="0.8128" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="55.88" y="55.88" size="0.8128" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="55.88" y="55.88" size="0.8128" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="55.88" y="55.88" size="0.8128" layer="27" display="off"/>
+<attribute name="NAME" x="53.506140625" y="60.26713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="55.88" y="55.88" size="0.8128" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="55.88" y="55.88" size="0.8128" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="55.88" y="55.88" size="0.8128" layer="27" display="off"/>
+<attribute name="VALUE" x="53.207090625" y="50.02361875" size="1.271390625" layer="27"/>
+</element>
+<element name="U$19" library="supply pins" package="PAD2" value="PADS.RND_NL" x="60.96" y="5.08" smashed="yes"/>
+<element name="U$20" library="supply pins" package="PAD2" value="PADS.RND_NL" x="71.12" y="5.08" smashed="yes"/>
+<element name="U$21" library="supply pins" package="PAD2" value="PADS.RND_NL" x="55.88" y="64.77" smashed="yes"/>
+<element name="U$22" library="supply pins" package="PAD2" value="PADS.RND_NL" x="55.88" y="5.08" smashed="yes"/>
+<element name="J34" library="575-4" package="KEYSTONE_575-4" value="575-4" x="40.64" y="13.97" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="40.64" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="40.64" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="40.64" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="40.64" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="NAME" x="38.266140625" y="18.35713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="40.64" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="40.64" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="40.64" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="VALUE" x="37.967090625" y="8.11361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J35" library="575-4" package="KEYSTONE_575-4" value="575-4" x="40.64" y="55.88" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="40.64" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="40.64" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="40.64" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="40.64" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="NAME" x="38.266140625" y="60.26713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="40.64" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="40.64" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="40.64" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="VALUE" x="37.967090625" y="50.02361875" size="1.271390625" layer="27"/>
+</element>
+<element name="U$23" library="supply pins" package="PAD2" value="PADS.RND_NL" x="40.64" y="6.35" smashed="yes"/>
+<element name="U$24" library="supply pins" package="PAD2" value="PADS.RND_NL" x="40.64" y="64.77" smashed="yes"/>
+<element name="U$25" library="supply pins" package="PAD2" value="PADS.RND_NL" x="204.47" y="5.08" smashed="yes"/>
+<element name="J36" library="575-4" package="KEYSTONE_575-4" value="575-4" x="27.94" y="13.97" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="27.94" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="27.94" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="27.94" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="27.94" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="NAME" x="25.566140625" y="18.35713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="27.94" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="27.94" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="27.94" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="VALUE" x="25.267090625" y="8.11361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J37" library="575-4" package="KEYSTONE_575-4" value="575-4" x="26.67" y="55.88" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="26.67" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="26.67" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="26.67" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="26.67" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="NAME" x="24.296140625" y="60.26713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="26.67" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="26.67" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="26.67" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="VALUE" x="23.997090625" y="50.02361875" size="1.271390625" layer="27"/>
+</element>
+<element name="U$26" library="supply pins" package="PAD2" value="PADS.RND_NL" x="27.94" y="6.35" smashed="yes"/>
+<element name="U$27" library="supply pins" package="PAD2" value="PADS.RND_NL" x="135.89" y="5.08" smashed="yes"/>
+<element name="J38" library="575-4" package="KEYSTONE_575-4" value="575-4" x="16.51" y="13.97" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="16.51" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="16.51" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="16.51" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="16.51" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="NAME" x="14.136140625" y="18.35713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="16.51" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="16.51" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="16.51" y="13.97" size="1.016" layer="27" display="off"/>
+<attribute name="VALUE" x="13.837090625" y="8.11361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J39" library="575-4" package="KEYSTONE_575-4" value="575-4" x="16.51" y="35.56" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="16.51" y="35.56" size="1.016" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="16.51" y="35.56" size="1.016" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="16.51" y="35.56" size="1.016" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="16.51" y="35.56" size="1.016" layer="27" display="off"/>
+<attribute name="NAME" x="14.136140625" y="39.94713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="16.51" y="35.56" size="1.016" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="16.51" y="35.56" size="1.016" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="16.51" y="35.56" size="1.016" layer="27" display="off"/>
+<attribute name="VALUE" x="13.837090625" y="29.70361875" size="1.271390625" layer="27"/>
+</element>
+<element name="J40" library="575-4" package="KEYSTONE_575-4" value="575-4" x="16.51" y="55.88" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="16.51" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Banana Jack- Non-Insulated .218 Length " x="16.51" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="MF" value="Keystone Electronics" x="16.51" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="MP" value="575-4" x="16.51" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="NAME" x="14.136140625" y="60.26713125" size="1.27206875" layer="25"/>
+<attribute name="PACKAGE" value="None" x="16.51" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="16.51" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/575-4/?ref=eda" x="16.51" y="55.88" size="1.016" layer="27" display="off"/>
+<attribute name="VALUE" x="13.837090625" y="50.02361875" size="1.271390625" layer="27"/>
+</element>
+<element name="U$28" library="supply pins" package="PAD2" value="PADS.RND_NL" x="2.54" y="13.97" smashed="yes"/>
+<element name="U$29" library="supply pins" package="PAD2" value="PADS.RND_NL" x="2.54" y="10.16" smashed="yes"/>
+<element name="U$30" library="supply pins" package="PAD2" value="PADS.RND_NL" x="3.81" y="33.02" smashed="yes"/>
+<element name="U$31" library="supply pins" package="PAD2" value="PADS.RND_NL" x="6.35" y="55.88" smashed="yes"/>
+<element name="U$32" library="supply pins" package="PAD2" value="PADS.RND_NL" x="3.81" y="27.94" smashed="yes"/>
+<element name="U$33" library="supply pins" package="PAD2" value="PADS.RND_NL" x="156.21" y="5.08" smashed="yes"/>
+<element name="U$34" library="supply pins" package="PAD2" value="PADS.RND_NL" x="48.26" y="5.08" smashed="yes"/>
+<element name="U$35" library="supply pins" package="PAD2" value="PADS.RND_NL" x="6.35" y="66.04" smashed="yes"/>
+<element name="U$39" library="supply pins" package="PAD2" value="PADS.RND_NL" x="2.54" y="6.35" smashed="yes"/>
+<element name="U$36" library="amp library" package="M6-HOLE" value="" x="9.525" y="23.495" smashed="yes"/>
+<element name="U$37" library="amp library" package="M6-HOLE" value="" x="9.525" y="46.355" smashed="yes"/>
+<element name="U$38" library="amp library" package="M6-HOLE" value="" x="236.22" y="60.96" smashed="yes"/>
+<element name="U$40" library="amp library" package="M6-HOLE" value="" x="232.41" y="7.62" smashed="yes"/>
+</elements>
+<signals>
+<signal name="N$1">
+<contactref element="J1" pad="1"/>
+<contactref element="U$5" pad="1"/>
+<wire x1="281.94" y1="12.7" x2="283.21" y2="11.43" width="2.54" layer="1"/>
+<wire x1="283.21" y1="11.43" x2="283.21" y2="5.08" width="2.54" layer="1"/>
+</signal>
+<signal name="N$3">
+<contactref element="J4" pad="1"/>
+</signal>
+<signal name="N$4">
+<contactref element="J3" pad="1"/>
+<contactref element="U$6" pad="1"/>
+<wire x1="243.84" y1="12.7" x2="243.84" y2="5.08" width="2.54" layer="1"/>
+</signal>
+<signal name="N$5">
+<contactref element="J5" pad="1"/>
+<contactref element="U$2" pad="1"/>
+<wire x1="255.27" y1="57.15" x2="260.35" y2="62.23" width="2.54" layer="1"/>
+<wire x1="260.35" y1="62.23" x2="260.35" y2="65.964" width="2.54" layer="1"/>
+<wire x1="260.35" y1="65.964" x2="260.35" y2="66.04" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$6">
+<contactref element="J6" pad="1"/>
+<contactref element="U$1" pad="1"/>
+<wire x1="267.97" y1="57.15" x2="267.97" y2="65.964" width="2.54" layer="1"/>
+<wire x1="267.97" y1="65.964" x2="267.97" y2="66.04" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$7">
+<contactref element="J7" pad="1"/>
+<contactref element="U$3" pad="1"/>
+<wire x1="245.11" y1="39.37" x2="245.11" y2="59.614" width="2.54" layer="1"/>
+<wire x1="245.11" y1="59.614" x2="251.46" y2="65.964" width="2.54" layer="1"/>
+<wire x1="251.46" y1="65.964" x2="251.46" y2="66.04" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GND">
+<contactref element="J2" pad="1"/>
+<contactref element="J14" pad="1"/>
+<wire x1="200.66" y1="57.15" x2="210.82" y2="57.15" width="2.54" layer="16"/>
+<wire x1="210.82" y1="57.15" x2="217.17" y2="50.8" width="2.54" layer="16"/>
+<wire x1="217.17" y1="50.8" x2="250.19" y2="50.8" width="2.54" layer="16"/>
+<wire x1="250.19" y1="50.8" x2="255.27" y2="45.72" width="2.54" layer="16"/>
+<wire x1="255.27" y1="45.72" x2="269.24" y2="45.72" width="2.54" layer="16"/>
+<wire x1="269.24" y1="45.72" x2="280.67" y2="57.15" width="2.54" layer="16"/>
+<contactref element="J23" pad="1"/>
+<contactref element="J29" pad="1"/>
+<contactref element="J37" pad="1"/>
+<wire x1="26.67" y1="55.88" x2="33.042275" y2="55.88" width="2.54" layer="16"/>
+<contactref element="U$35" pad="P$1"/>
+<wire x1="26.67" y1="55.88" x2="24.107725" y2="55.88" width="2.54" layer="16"/>
+<wire x1="200.66" y1="57.15" x2="194.31" y2="57.15" width="2.54" layer="16"/>
+<wire x1="163.3474" y1="62.3824" x2="163.195" y2="62.23" width="2.54" layer="16"/>
+<wire x1="171.01658125" y1="64.77" x2="168.62898125" y2="62.3824" width="2.54" layer="16"/>
+<wire x1="168.62898125" y1="62.3824" x2="163.3474" y2="62.3824" width="2.54" layer="16"/>
+<wire x1="163.195" y1="62.23" x2="158.75" y2="62.23" width="2.54" layer="16"/>
+<wire x1="158.75" y1="62.23" x2="157.48" y2="63.5" width="2.54" layer="16"/>
+<wire x1="157.48" y1="63.5" x2="121.92" y2="63.5" width="2.54" layer="16"/>
+<wire x1="121.92" y1="63.5" x2="115.57" y2="57.15" width="2.54" layer="16"/>
+<wire x1="194.31" y1="57.15" x2="186.69" y2="64.77" width="2.54" layer="16"/>
+<wire x1="186.69" y1="64.77" x2="171.01658125" y2="64.77" width="2.54" layer="16"/>
+<wire x1="115.57" y1="57.15" x2="107.95" y2="57.15" width="2.54" layer="16"/>
+<wire x1="107.95" y1="57.15" x2="100.965" y2="64.135" width="2.54" layer="16"/>
+<wire x1="100.965" y1="64.135" x2="89.535" y2="64.135" width="2.54" layer="16"/>
+<wire x1="89.535" y1="64.135" x2="82.55" y2="57.15" width="2.54" layer="16"/>
+<wire x1="82.55" y1="57.15" x2="64.135" y2="57.15" width="2.54" layer="16"/>
+<wire x1="64.135" y1="57.15" x2="58.42" y2="62.865" width="2.54" layer="16"/>
+<wire x1="58.42" y1="62.865" x2="57.35158125" y2="62.865" width="2.54" layer="16"/>
+<wire x1="57.35158125" y1="62.865" x2="56.86898125" y2="62.3824" width="2.54" layer="16"/>
+<wire x1="33.1724" y1="62.3824" x2="26.67" y2="55.88" width="2.54" layer="16"/>
+<wire x1="56.86898125" y1="62.3824" x2="33.1724" y2="62.3824" width="2.54" layer="16"/>
+<wire x1="26.67" y1="55.88" x2="16.586" y2="65.964" width="2.54" layer="16"/>
+<wire x1="16.586" y1="65.964" x2="6.35" y2="65.964" width="2.54" layer="16"/>
+<wire x1="6.35" y1="65.964" x2="6.35" y2="66.04" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$2">
+<contactref element="J10" pad="1"/>
+<contactref element="U$7" pad="P$1"/>
+<wire x1="220.98" y1="12.7" x2="220.98" y2="5.08" width="2.54" layer="1"/>
+</signal>
+<signal name="A">
+<contactref element="J9" pad="1"/>
+<contactref element="J15" pad="1"/>
+<wire x1="195.31339375" y1="28.0576" x2="193.30660625" y2="28.0576" width="2.54" layer="1"/>
+<wire x1="190.88420625" y1="30.48" x2="180.34" y2="30.48" width="2.54" layer="1"/>
+<wire x1="193.30660625" y1="28.0576" x2="190.88420625" y2="30.48" width="2.54" layer="1"/>
+<wire x1="220.98" y1="44.45" x2="208.1624" y2="31.6324" width="2.54" layer="1"/>
+<wire x1="208.1624" y1="31.6324" x2="198.88819375" y2="31.6324" width="2.54" layer="1"/>
+<wire x1="198.88819375" y1="31.6324" x2="195.31339375" y2="28.0576" width="2.54" layer="1"/>
+</signal>
+<signal name="N$10">
+<contactref element="J11" pad="1"/>
+<contactref element="U$4" pad="P$1"/>
+<wire x1="220.98" y1="57.15" x2="220.98" y2="65.964" width="2.54" layer="1"/>
+<wire x1="220.98" y1="65.964" x2="220.98" y2="66.04" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$11">
+<contactref element="J12" pad="1"/>
+<contactref element="U$8" pad="P$1"/>
+<wire x1="191.77" y1="12.7" x2="191.77" y2="5.08" width="2.54" layer="1"/>
+</signal>
+<signal name="N$14">
+<contactref element="J13" pad="1"/>
+<contactref element="U$9" pad="P$1"/>
+<wire x1="209.55" y1="12.7" x2="209.55" y2="5.08" width="2.54" layer="1"/>
+<contactref element="U$25" pad="P$1"/>
+<wire x1="204.47" y1="5.08" x2="209.55" y2="5.08" width="2.54" layer="1"/>
+</signal>
+<signal name="N$12">
+<contactref element="J16" pad="1"/>
+<contactref element="U$11" pad="P$1"/>
+<wire x1="175.26" y1="32.997725" x2="174.9676" y2="32.705325" width="2.54" layer="1"/>
+<wire x1="174.9676" y1="32.705325" x2="174.9676" y2="15.5324" width="2.54" layer="1"/>
+<wire x1="174.9676" y1="15.5324" x2="185.42" y2="5.08" width="2.54" layer="1"/>
+<wire x1="174.9676" y1="32.705325" x2="174.9676" y2="51.7776" width="2.54" layer="1"/>
+<wire x1="174.9676" y1="51.7776" x2="180.34" y2="57.15" width="2.54" layer="1"/>
+</signal>
+<signal name="N$13">
+<contactref element="J17" pad="1"/>
+<contactref element="U$10" pad="P$1"/>
+<wire x1="154.94" y1="57.15" x2="154.94" y2="65.964" width="2.54" layer="1"/>
+<wire x1="154.94" y1="65.964" x2="154.94" y2="66.04" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="J18" pad="1"/>
+<contactref element="U$12" pad="P$1"/>
+<wire x1="167.64" y1="12.7" x2="167.64" y2="5.08" width="2.54" layer="1"/>
+</signal>
+<signal name="N$15">
+<contactref element="J19" pad="1"/>
+<contactref element="U$13" pad="P$1"/>
+<wire x1="167.64" y1="44.45" x2="167.64" y2="64.77" width="2.54" layer="1"/>
+</signal>
+<signal name="VC">
+<contactref element="J8" pad="1"/>
+<contactref element="J20" pad="1"/>
+<wire x1="166.5984125" y1="34.9504" x2="168.6815875" y2="34.9504" width="2.54" layer="16"/>
+<wire x1="154.94" y1="44.45" x2="157.0988125" y2="44.45" width="2.54" layer="16"/>
+<wire x1="157.0988125" y1="44.45" x2="166.5984125" y2="34.9504" width="2.54" layer="16"/>
+<wire x1="168.6815875" y1="34.9504" x2="169.2911875" y2="35.56" width="2.54" layer="16"/>
+<wire x1="177.822275" y1="35.56" x2="178.114675" y2="35.8524" width="2.54" layer="16"/>
+<wire x1="231.4324" y1="35.8524" x2="233.68" y2="38.1" width="2.54" layer="16"/>
+<wire x1="178.114675" y1="35.8524" x2="231.4324" y2="35.8524" width="2.54" layer="16"/>
+<wire x1="169.2911875" y1="35.56" x2="177.822275" y2="35.56" width="2.54" layer="16"/>
+<contactref element="J40" pad="1"/>
+<contactref element="U$31" pad="P$1"/>
+<wire x1="16.51" y1="55.88" x2="6.35" y2="55.88" width="2.54" layer="16"/>
+<wire x1="16.51" y1="55.88" x2="19.072275" y2="55.88" width="2.54" layer="16"/>
+<wire x1="19.072275" y1="55.88" x2="24.444675" y2="50.5076" width="2.54" layer="16"/>
+<wire x1="24.444675" y1="50.5076" x2="126.0224" y2="50.5076" width="2.54" layer="16"/>
+<wire x1="133.35" y1="43.18" x2="156.21" y2="43.18" width="2.54" layer="16"/>
+<wire x1="156.21" y1="43.18" x2="154.94" y2="44.45" width="2.54" layer="16"/>
+<wire x1="126.0224" y1="50.5076" x2="133.35" y2="43.18" width="2.54" layer="16"/>
+</signal>
+<signal name="N$8">
+<contactref element="J21" pad="1"/>
+<contactref element="U$14" pad="P$1"/>
+<wire x1="142.24" y1="13.97" x2="142.24" y2="5.08" width="2.54" layer="1"/>
+</signal>
+<signal name="N$16">
+<contactref element="J22" pad="1"/>
+<contactref element="U$27" pad="P$1"/>
+<wire x1="135.89" y1="5.08" x2="135.89" y2="52.07" width="2.54" layer="1"/>
+<wire x1="135.89" y1="52.07" x2="140.97" y2="57.15" width="2.54" layer="1"/>
+</signal>
+<signal name="N$17">
+<contactref element="J25" pad="1"/>
+</signal>
+<signal name="N$18">
+<contactref element="J24" pad="1"/>
+<contactref element="U$15" pad="P$1"/>
+<wire x1="93.98" y1="13.97" x2="93.98" y2="5.08" width="2.54" layer="1"/>
+</signal>
+<signal name="N$21">
+<contactref element="J27" pad="1"/>
+<contactref element="U$16" pad="P$1"/>
+<wire x1="114.3" y1="13.97" x2="114.3" y2="5.08" width="2.54" layer="1"/>
+</signal>
+<signal name="N$22">
+<contactref element="J28" pad="1"/>
+<contactref element="U$17" pad="P$1"/>
+<wire x1="125.73" y1="13.97" x2="125.73" y2="5.08" width="2.54" layer="1"/>
+</signal>
+<signal name="N$20">
+<contactref element="J26" pad="1"/>
+<contactref element="U$18" pad="P$1"/>
+<wire x1="82.55" y1="13.97" x2="82.55" y2="3.81" width="2.54" layer="1"/>
+<wire x1="82.55" y1="3.81" x2="82.55" y2="5.08" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$19">
+<contactref element="J31" pad="1"/>
+<contactref element="U$21" pad="P$1"/>
+<wire x1="55.88" y1="63.477725" x2="55.88" y2="64.77" width="2.54" layer="1"/>
+<wire x1="50.5076" y1="58.105325" x2="55.88" y2="63.477725" width="2.54" layer="1"/>
+<wire x1="55.88" y1="29.21" x2="55.88" y2="35.582275" width="2.54" layer="1"/>
+<wire x1="55.88" y1="35.582275" x2="50.5076" y2="40.954675" width="2.54" layer="1"/>
+<wire x1="50.5076" y1="40.954675" x2="50.5076" y2="58.105325" width="2.54" layer="1"/>
+</signal>
+<signal name="N$23">
+<contactref element="J32" pad="1"/>
+<contactref element="U$19" pad="P$1"/>
+<wire x1="60.96" y1="5.08" x2="60.96" y2="11.452275" width="2.54" layer="1"/>
+<wire x1="60.96" y1="11.452275" x2="61.2524" y2="11.744675" width="2.54" layer="1"/>
+<wire x1="61.2524" y1="11.744675" x2="61.2524" y2="37.8076" width="2.54" layer="1"/>
+<wire x1="61.2524" y1="37.8076" x2="55.88" y2="43.18" width="2.54" layer="1"/>
+</signal>
+<signal name="N$24">
+<contactref element="J30" pad="1"/>
+<contactref element="U$22" pad="P$1"/>
+<wire x1="55.88" y1="13.97" x2="55.88" y2="5.08" width="2.54" layer="1"/>
+</signal>
+<signal name="N$25">
+<contactref element="J33" pad="1"/>
+<contactref element="U$20" pad="P$1"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="20.70420625" width="2.54" layer="1"/>
+<wire x1="68.6976" y1="43.0624" x2="55.88" y2="55.88" width="2.54" layer="1"/>
+<wire x1="71.12" y1="20.70420625" x2="68.6976" y2="23.12660625" width="2.54" layer="1"/>
+<wire x1="68.6976" y1="23.12660625" x2="68.6976" y2="43.0624" width="2.54" layer="1"/>
+</signal>
+<signal name="N$26">
+<contactref element="J34" pad="1"/>
+<contactref element="U$23" pad="P$1"/>
+<wire x1="40.64" y1="13.97" x2="40.64" y2="6.35" width="2.54" layer="1"/>
+</signal>
+<signal name="N$27">
+<contactref element="J35" pad="1"/>
+<contactref element="U$24" pad="P$1"/>
+<wire x1="40.64" y1="55.88" x2="40.64" y2="64.77" width="2.54" layer="1"/>
+</signal>
+<signal name="N$28">
+<contactref element="J36" pad="1"/>
+<contactref element="U$26" pad="P$1"/>
+<wire x1="27.94" y1="13.97" x2="27.94" y2="6.35" width="2.54" layer="1"/>
+</signal>
+<signal name="N$29">
+<contactref element="J38" pad="1"/>
+<contactref element="U$28" pad="P$1"/>
+<contactref element="U$29" pad="P$1"/>
+<wire x1="16.51" y1="13.97" x2="2.286" y2="13.97" width="2.54" layer="16"/>
+<wire x1="2.54" y1="13.97" x2="2.54" y2="10.16" width="2.54" layer="16"/>
+<contactref element="U$39" pad="P$1"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="6.35" width="2.54" layer="16"/>
+<wire x1="2.54" y1="13.97" x2="2.286" y2="13.97" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$31">
+<contactref element="J39" pad="1"/>
+<contactref element="U$32" pad="P$1"/>
+<contactref element="U$30" pad="P$1"/>
+<contactref element="U$33" pad="P$1"/>
+<contactref element="U$34" pad="P$1"/>
+<wire x1="16.51" y1="35.56" x2="13.97" y2="33.02" width="2.54" layer="16"/>
+<wire x1="13.97" y1="33.02" x2="3.81" y2="33.02" width="2.54" layer="16"/>
+<wire x1="3.81" y1="33.02" x2="3.81" y2="27.94" width="2.54" layer="16"/>
+<wire x1="42.865325" y1="19.3424" x2="46.0124" y2="16.195325" width="2.54" layer="16"/>
+<wire x1="46.0124" y1="7.3276" x2="48.26" y2="5.08" width="2.54" layer="16"/>
+<wire x1="46.0124" y1="16.195325" x2="46.0124" y2="7.3276" width="2.54" layer="16"/>
+<wire x1="16.51" y1="35.56" x2="19.93579375" y2="35.56" width="2.54" layer="16"/>
+<wire x1="19.93579375" y1="35.56" x2="28.0576" y2="27.43819375" width="2.54" layer="16"/>
+<wire x1="28.0576" y1="27.43819375" x2="28.0576" y2="22.540825" width="2.54" layer="16"/>
+<wire x1="28.0576" y1="22.540825" x2="31.256025" y2="19.3424" width="2.54" layer="16"/>
+<wire x1="31.256025" y1="19.3424" x2="42.865325" y2="19.3424" width="2.54" layer="16"/>
+<wire x1="48.26" y1="5.08" x2="52.50341875" y2="5.08" width="2.54" layer="16"/>
+<wire x1="52.50341875" y1="5.08" x2="54.89101875" y2="7.4676" width="2.54" layer="16"/>
+<wire x1="134.62" y1="7.62" x2="134.4676" y2="7.4676" width="2.54" layer="16"/>
+<wire x1="54.89101875" y1="7.4676" x2="134.4676" y2="7.4676" width="2.54" layer="16"/>
+<wire x1="145.61658125" y1="5.08" x2="156.21" y2="5.08" width="2.54" layer="16"/>
+<wire x1="143.22898125" y1="7.4676" x2="145.61658125" y2="5.08" width="2.54" layer="16"/>
+<wire x1="134.4676" y1="7.4676" x2="143.22898125" y2="7.4676" width="2.54" layer="16"/>
+</signal>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
+</board>
+</drawing>
+</eagle>
